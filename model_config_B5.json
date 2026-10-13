@@ -1,0 +1,15 @@
+{
+    "model_name": "EfficientNet-B0",
+    "experiment_id": "B5_efficientnet_b0_aug",
+    "hyperparameters": {
+        "batch_size": 32,
+        "learning_rate": 0.001,
+        "optimizer": "Adam",
+        "epochs": 10
+    },
+    "final_metrics": {
+        "train_accuracy": 0.94,
+        "val_accuracy": 0.87,
+        "val_loss": 0.65
+    }
+}
